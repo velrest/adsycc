@@ -73,6 +73,8 @@ export default {
   nav: {
     dashboard: 'Dashboard',
     vault: 'Vault',
+    sysupport: 'SySupport',
+    wikis: 'Wikis',
     settings: 'Settings',
     logout: 'Sign out'
   },
