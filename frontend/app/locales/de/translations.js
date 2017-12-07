@@ -76,6 +76,7 @@ export default {
     rt: 'Request Tracker',
     symon: 'SyMonitoring',
     vault: 'Vault',
+    sysupport: 'SySupport',
     wikis: 'Wikis',
     settings: 'Einstellungen',
     profile: 'Profil',
