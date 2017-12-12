@@ -1,7 +1,7 @@
 import { inject as service } from '@ember/service'
 import { computed } from '@ember/object'
 import Session from 'ember-simple-auth/services/session'
-import User from 'adsycc/user/model'
+import User from 'adsycc/utils/ccuser'
 
 export default Session.extend({
   session: service(),
