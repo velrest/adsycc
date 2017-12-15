@@ -134,6 +134,35 @@ export default {
       'Das Passwort konnte nicht in die Zwischenablage kopiert werden.'
   },
 
+  sysupport: {
+    minutes: {
+      one: 'Minute',
+      other: 'Minuten'
+    },
+    hours: {
+      one: 'Stunde',
+      other: 'Stunden'
+    },
+    index: {
+      title: 'Sysupport Abonnements',
+      'time.total': 'Totales Guthaben',
+      'time.used': 'Gebrauchtes Guthaben',
+      charge: 'Aufladen',
+      details: 'Details'
+    },
+
+    detail: {
+      expense: 'Aufwände',
+      charges: 'Aufladungen',
+      date: 'Datum',
+      effort: 'Aufwand',
+      employee: 'Mitarbeiter',
+      description: 'Beschreibung',
+      acknowledged: 'Bestätigt',
+      amount: 'Anzahl Stunden'
+    }
+  },
+
   'user.profile': {
     email: 'E-Mail Adresse',
     services: 'Dienste',

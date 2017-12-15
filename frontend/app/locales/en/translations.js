@@ -134,6 +134,41 @@ export default {
     'clipboard-error': 'The secret could not be saved to your clipboard.'
   },
 
+  sysupport: {
+    minutes: {
+      one: 'Minute',
+      other: 'Minutes'
+    },
+    hours: {
+      one: 'Hour',
+      other: 'Hours'
+    },
+    index: {
+      title: 'Sysupport Subscriptions',
+      'time.total': 'Time Total',
+      'time.used': 'Timed Used',
+      charge: 'Charge',
+      details: 'Details'
+    },
+
+    reload: {
+      hour: 'Hours',
+      price: 'Price',
+      select: 'Select'
+    },
+
+    detail: {
+      expense: 'Expense',
+      charges: 'Past Charges',
+      date: 'Date',
+      effort: 'Effort',
+      employee: 'Employee',
+      description: 'Description',
+      acknowledged: 'Acknowledged',
+      amount: 'Amount'
+    }
+  },
+
   'user.profile': {
     email: 'Email address',
     services: 'Services',
