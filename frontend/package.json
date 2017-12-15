@@ -28,7 +28,6 @@
     "ember-cli": "~2.16.0",
     "ember-cli-app-version": "^3.0.0",
     "ember-cli-babel": "^6.7.1",
-    "ember-cli-chart": "^3.4.0",
     "ember-cli-dependency-checker": "^2.0.0",
     "ember-cli-eslint": "^4.0.0",
     "ember-cli-htmlbars": "^2.0.1",
@@ -66,8 +65,5 @@
     "loader.js": "^4.2.3",
     "pagination-pager": "^2.1.1",
     "prettier": "^1.7.0"
-  },
-  "dependencies": {
-    "chart.js": "^2.7.1"
   }
 }

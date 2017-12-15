@@ -13,9 +13,8 @@ function createProxy(config) {
     parseReqBody: false,
 
     filter(req) {
-      return (
-        allowedEndpoints.includes(req.path) && req.session.timedCustomer.id
-      );
+      return allowedEndpoints.includes(req.path) && req.session
+        .timedCustomer.id
     },
 
     // eslint-disable-next-line max-statements
@@ -33,8 +32,7 @@ function createProxy(config) {
 
       const queryString = Object.keys(queryParams)
         .map(key => `${key}=${queryParams[key]}`)
-        .join("&");
-
+        .join('&')
       if (req.path === report) {
         return `${newPath}?customer=${timedCustomer.id}&not_billable=0&review=0&${queryString}`;
       }
