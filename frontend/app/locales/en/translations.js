@@ -110,7 +110,8 @@ export default {
     reload: {
       hour: 'Hours',
       price: 'Price',
-      select: 'Select'
+      select: 'Select a Subscription-Package',
+      success: 'Your order was successfully saved'
     },
 
     detail: {
