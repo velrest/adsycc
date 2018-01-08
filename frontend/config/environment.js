@@ -11,6 +11,7 @@ module.exports = function(environment) {
       FEATURES: {
         // Here you can enable experimental features on an ember canary build
         // e.g. 'with-controller': true
+        'ds-payload-type-hooks': true
       },
       EXTEND_PROTOTYPES: {
         // Prevent Ember Data from overriding Date.parse.
@@ -29,7 +30,7 @@ module.exports = function(environment) {
         mail: 'support@adfinis-sygroup.ch'
       },
       // Services : redmine, mon, sysupport, wiki, rt, vault
-      enabledServices: ['vault']
+      enabledServices: ['vault', 'sysupport']
     },
 
     i18n: {

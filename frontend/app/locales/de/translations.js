@@ -73,6 +73,8 @@ export default {
   nav: {
     dashboard: 'Übersicht',
     vault: 'Vault',
+    sysupport: 'SySupport',
+    wikis: 'Wikis',
     settings: 'Einstellungen',
     logout: 'Logout'
   },
@@ -87,5 +89,50 @@ export default {
     'clipboard-success': 'Das Passwort wurde in die Zwischenablage kopiert.',
     'clipboard-error':
       'Das Passwort konnte nicht in die Zwischenablage kopiert werden.'
+  },
+
+  sysupport: {
+    minutes: {
+      one: 'Minute',
+      other: 'Minuten'
+    },
+    hours: {
+      one: 'Stunde',
+      other: 'Stunden'
+    },
+    index: {
+      title: 'Sysupport Abonnements',
+      'time.total': 'Totales Guthaben',
+      'time.used': 'Gebrauchtes Guthaben',
+      charge: 'Aufladen',
+      details: 'Details'
+    },
+
+    reload: {
+      hour: 'Stunden',
+      price: 'Preis',
+      select: 'Wählen Sie ein Packet aus',
+      success: 'Ihre Bestellung wurde erfolgreich veraarbeitet.',
+      error:
+        'Bei der verarbeitung Ihrer Bestellung ist ein Fehler aufgetreten. Bitte vergewissern Sie sich ob die Bestellung verarbeitet wurde und falls nicht, bersuchen Sie es noch einmal.',
+      charge: 'Aufladen'
+    },
+
+    detail: {
+      expense: 'Aufwände',
+      charges: 'Aufladungen',
+      date: 'Datum',
+      effort: 'Aufwand',
+      employee: 'Mitarbeiter',
+      description: 'Beschreibung',
+      acknowledged: 'Bestätigt',
+      amount: 'Anzahl Stunden'
+    }
+  },
+
+  'user.profile': {
+    email: 'E-Mail Adresse',
+    services: 'Dienste',
+    language: 'Sprache'
   }
 }
